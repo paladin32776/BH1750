@@ -1,18 +1,18 @@
 #######################################
-# Syntax Coloring Map For CCS811
+# Syntax Coloring Map For BH1750
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-CCS811	KEYWORD1
+BH1750	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-get_serial_id(unsigned int* serial_id KEYWORD2
-get_mfg_id KEYWORD2
-get_device_id KEYWORD2
-read KEYWORD2
+set_mode KEYWORD2
+get_mode KEYWORD2
+int read KEYWORD2
+set_mt KEYWORD2
 #######################################
 # Instances (KEYWORD2)
 #######################################
@@ -20,4 +20,8 @@ read KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
-# LARGE LITERAL1
+SINGLE LITERAL1
+CONT LITERAL1
+HRES LITERAL1
+HRES2 LITERAL1
+LRES LITERAL1

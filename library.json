@@ -1,7 +1,7 @@
 {
-    "name": "CCS811",
-    "description": "Interfaces with AMS's CCS811 CO2 and TVOC sensor.",
-    "keywords": "I2C, sensor, CO2, TVOC",
+    "name": "BH1750",
+    "description": "Interfaces with BH1750 temperature and humidity sensor.",
+    "keywords": "I2C, sensor, temperature, humidity",
     "authors": [
         {
             "name": "Gernot Fattinger",
